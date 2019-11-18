@@ -31,5 +31,5 @@
       { id: 'vms', label: 'Virtual Machines', tags: ['virtualmachine'] }
     ]}
   ];
-  windows.OPENSHIFT_CONSTANTS.SERVICE_CATALOG_CATEGORIES = categories;
+  window.OPENSHIFT_CONSTANTS.SERVICE_CATALOG_CATEGORIES = categories;
 }());
