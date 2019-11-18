@@ -1,5 +1,3 @@
-import * as _ from 'lodash';
-
 (function() {
   var categories = [
     { id: 'languages', label: 'Languages', subCategories: [
@@ -33,6 +31,5 @@ import * as _ from 'lodash';
       { id: 'vms', label: 'Virtual Machines', tags: ['virtualmachine'] }
     ]}
   ];
-
-  _.set(window, 'OPENSHIFT_CONSTANTS.SERVICE_CATALOG_CATEGORIES', categories);
+  windows.OPENSHIFT_CONSTANTS.SERVICE_CATALOG_CATEGORIES = categories;
 }());
